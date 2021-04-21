@@ -1,11 +1,10 @@
 #pragma once
-class Game
-{
+class Game {
 private:
-	int playerNum;  // 玩家人数
+	int PlayerNum;  // 玩家人数
 public:
 	Game(int playerNum);
 };
 
-Game::Game(int playerNum) : playerNum(playerNum) {};
+Game::Game(int playerNum) : PlayerNum(playerNum) {};
 
